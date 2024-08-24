@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\humidity.png" />
+    <None Remove="Images\location.png" />
+    <None Remove="Images\redButton.png" />
+    <None Remove="Images\temperature.png" />
+    <None Remove="Images\whiteButton.png" />
+    <None Remove="Images\windSpeed.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\humidity.png" />
+    <Resource Include="Images\location.png" />
+    <Resource Include="Images\redButton.png" />
+    <Resource Include="Images\temperature.png" />
+    <Resource Include="Images\whiteButton.png" />
+    <Resource Include="Images\windSpeed.png" />
+  </ItemGroup>
+
+</Project>
